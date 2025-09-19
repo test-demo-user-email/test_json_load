@@ -1,0 +1,12 @@
+[package]
+name = "yew-json-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }  # Downgraded for stability
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+gloo-net = "0.3"  # Compatible with Yew 0.20
+wasm-bindgen-futures = "0.4"
+web-sys = "0.3.80"

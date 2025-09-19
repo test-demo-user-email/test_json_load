@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 28,
+      "is_active": true,
+      "hobbies": ["reading", "swimming", "coding"]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 32,
+      "is_active": true,
+      "hobbies": ["painting", "hiking", "music"]
+    }
+  ],
+  "metadata": {
+    "total_users": 2,
+    "last_updated": "2024-01-15",
+    "version": "1.0.0"
+  }
+}

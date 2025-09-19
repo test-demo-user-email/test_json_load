@@ -1,0 +1,13 @@
+[build]
+dist = "dist"
+release = true
+
+[serve]
+port = 8080
+open = true
+
+[watch]
+watch = ["src", "static", "index.html"]
+
+[[copy]]
+source = "static/data.json"
