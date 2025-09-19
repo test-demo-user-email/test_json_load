@@ -36,9 +36,9 @@ if %errorlevel% neq 0 (
     goto :error
 )
 
-REM 6. Remove all files from the new branch (but keep them in working directory)
+REM 6. Clear the git index (orphan branch starts with all files staged)
 echo Clearing git index...
-git rm -rf . >nul 2>&1 || echo Branch was already clean
+git reset >nul 2>&1 || echo Index already clear
 
 REM 7. Copy files from dist to root of gh-pages
 echo Copying built files to root...
