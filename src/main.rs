@@ -38,7 +38,7 @@ fn app() -> Html {
             },
             Err(e) => {
                 web_sys::console::error_1(&format!("JSON parse error: {} at line {} column {}", e, e.line(), e.column()).into());
-                web_sys::console::log_1(&format!("JSON content: {}", JSON_DATA).into());
+                web_sys::console::log_1(&format!("JSON content: {JSON_DATA}").into());
                 None
             }
         }

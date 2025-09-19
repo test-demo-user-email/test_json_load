@@ -1,5 +1,5 @@
 [build]
-dist = "docs"
+dist = "dist"
 release = true
 
 [serve]
